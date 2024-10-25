@@ -1,0 +1,308 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ProjectNavbar.css">
+</head>
+<body class= 'transition-out'>
+
+    <div class ='father-window transition-out'>
+        <div class= 'daughter-window'>
+
+            <section navbar>
+
+               <section left-part>
+                   <div class= 'grid-navbar-container navbar-section transition-out'>
+                       <p id = 'item home-item transition-out'>
+                           <span class=" transition-out">HOME</span>
+                       </p>
+                       <p id = 'item about-item '>
+                           <span class ='transition-out'>ABOUT</span>
+                       </p>
+                       <p id = 'item services-item'>
+                           <span class=" transition-out">SERVICE</span>
+                       </p>
+
+                       
+                   </div>
+
+
+
+
+               </section>
+
+               <section image-part>
+                <div class ='grid-navbar-container'>
+                    <img src="pngtree-coffee-shop-logo-simple-coffee-icon-vector-png-image_9006903.png" alt="">
+
+
+                </div>
+                <div class = "hide-image-window transition-out">
+                    <span class= 'hide-image-header'>
+
+                        Coffe shop logo <br>
+                    </span>
+                <span class ='hide-image-subtext'>This is a long story...</span>
+                </div>
+               </section>
+
+
+
+               <section right-part>
+                   <div class= 'grid-navbar-container transition-out  navbar-section'>
+                       <p id = 'item blog-item '>
+                           <span class ='transition-out'>BLOG</span>
+                       </p>
+                       <p id = 'item faqs-item'>
+                           <span class="transition-out">FAQS</span>
+                       </p>
+                       <p id = 'item contact-item'>
+                           <span class="transition-out">CONTACT</span>
+                       </p>
+                   </div>
+
+               </section>
+            </section>
+
+
+
+            <div class ='background-image'>
+                <img src="coffe-background.webp" alt="">
+
+
+                <div class= 'inner-image-text transition-out'>
+                    <span class="main-image-text transition-out">Health & Wellness Secvices</span>
+                    <p class = "subtext-image-text transition-out">Providing Quality Nutrition</p>
+
+                </div>
+            </div>
+    <section custom-coffe class ='transition-out'>
+
+        <div class ='custom-container transition-out'>
+            <header class = 'custom-header transition-out'>Custom Packages</header>
+            <p class = 'custom-subtext transition-out'>Scodalle FREE 20 minute call if suitable. We will create an honest proposal that best suits you - your health goals </p>
+
+            <div class ='button-container transition-out'>
+                <button class ='custom-button transition-out first'>VIEW EXAMPLE QUOTE</button>
+                <button class ='custom-button transition-out second'>VIEW EXAMPLE BACKAGE</button>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section card-section>
+
+
+
+        <header class = 'card-section-header transition-out'>
+            Specializing In </header>
+
+            <p class = 'card-section-subtext transition-out'>
+                Express Navigation Advice for You
+
+            </p>
+
+        <div class= 'card-container'>
+
+            <div class="first-card card ">
+                <span id  ='card-text transition-out'>Mindful + <br> Intuitive Eating
+                </span>
+                <div class ='animation-rotate-line transition-out' ></div>
+
+                <div class ='animation-rotate-line transition-out' ></div>
+                <div class ='animation-rotate-line transition-out' ></div>
+            </div>
+            <div class="second-card card ">
+                <span id  ='card-text transition-out'>Food Alergies <br> + Sensitiveties
+                </span>
+
+
+
+
+                <div class ='animation-rotate-line transition-out' ></div>
+
+                <div class ='animation-rotate-line transition-out' ></div>
+                <div class ='animation-rotate-line transition-out' ></div>
+
+            </div>
+            <div class="third-card card ">
+                <span id ='card-text transition-out' >Digestive + <br> Health
+                </span>
+                <div class ='animation-rotate-line transition-out' ></div>
+
+                <div class ='animation-rotate-line transition-out' ></div>
+                <div class ='animation-rotate-line transition-out' ></div>
+            </div>
+            <div class="fourth-card card ">
+                <span id ='card-text transition-out'>Immune <br> System <br> Support
+                </span>
+                <div class ='animation-rotate-line transition-out' ></div>
+
+                <div class ='animation-rotate-line transition-out' ></div>
+                <div class ='animation-rotate-line transition-out' ></div>
+            </div>
+        </div>
+
+        <div class ='undercard-container'>
+            <p class ='undercard-subtext transition-out'>READY TO GET STARTED? CLICK HERE TO BEGIN:
+            </p>
+            <svg viewBox = '0 0 100 100' class= 'transition-out' height = '95%' style = 'position:absolute;aspect-ratio: 1/ 1;'>
+                <circle cx ='50' cy = '50' r = '45'  fill ='none' stroke = 'black' stroke-width = '5'></circle>
+                <line x1 = '40' x2 = '60' y1 = '30' y2 ='51' stroke = 'black' stroke-width ='5'> </line>
+                <line x1 = '40' x2 = '60' y1 = '70' y2 ='49' stroke = 'black' stroke-width ='5'> </line>
+
+            </svg>
+
+
+
+        </div>
+
+
+
+
+    </section>
+
+    <section expectation-part >
+        <header class= " transition-out main-expectation-header">What to Expect </header>
+
+
+        <div class ='content-container  transition-out'>
+
+
+            <div class ='image-expectation transition-out'>
+
+        <img src="expectation-section-image.jpg" alt="">
+        </div>
+
+
+        <div class="text-container  transition-out">
+        <section >
+
+            <div class ='svg-container'>1 </div>
+
+    <p> Scherdule a Free 20-minute Call</p>
+    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+    <div class  ='expected-hide-window transition-out'>
+        <p class= 'hide-item-text'>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+    </div>
+
+
+
+
+
+
+        </section>
+
+        <section >
+            <div class ='svg-container'> 2</div>
+
+
+                <p> Choose a personalized Package</p>
+
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                onsectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </span>
+            <div class  ='expected-hide-window transition-out'>
+                <p class= 'hide-item-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    onsectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+
+
+        </section>
+
+        <section>
+            <div class ='svg-container'> 3</div>
+
+            <p> Scherdule a Deep Dive Condult</p>
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               amet consectetur adipisicing elit.  Lorem ipsum dolor sit
+            </span>
+            <div class  ='expected-hide-window transition-out'>
+                <p class= 'hide-item-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    amet consectetur adipisicing elit.  Lorem ipsum dolor sit  </p>
+            </div>
+
+        </section>
+
+        <section>
+            <div class ='svg-container'>4 </div>
+
+            <p> Scherdule Your Follow-Ups</p>
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Image have is too low resolution for this Lorem ipsum dolor sit amet.
+            </span>
+            <div class  ='expected-hide-window transition-out'>
+                <p class= 'hide-item-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Image have is too low resolution for this Lorem ipsum dolor sit amet. </p>
+            </div>
+
+        </section>
+
+        <section>
+            <div class ='svg-container'>5 </div>
+
+            <p> Stay Connected via HeadPie</p>
+            <span> iActually dont know how in work.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </span>
+
+            <div class  ='expected-hide-window transition-out'>
+                <p class= 'hide-item-text'>iActually dont know how in work.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+
+        </section>
+
+
+
+
+
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+</section>
+
+<section contact-part>
+
+
+<header class ='contact-header'>Don`t See What You`re Looking For?</header>
+
+<p class= 'contact-subtext'>
+    Contact me. We`ll work together to create plan that best fits needs.
+
+</p>
+<button class ='contact-button'>
+    <a href="https://www.linkedin.com/feed/">CONTACT ME</a>
+</button>
+</section>
+
+
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+    <script src ='ProjectNavbarJS.js'></script>
+
+</body>
+</html>
