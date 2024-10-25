@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -105,47 +106,53 @@
                 <header class="transition-out main-expectation-header">What to Expect</header>
                 <div class='content-container transition-out'>
                     <div class='image-expectation transition-out'>
-                        <img src="expectation-section-image.jpg" alt="">
+                        <img  src="expectation-section-image.jpg" style= 'z-index: 10;' alt="" class= 'transition-out'>
+                        
+                        <img src="hidden-second-image.jpg" class ='hidden-transition-image transition-out' style= 'z-index: 100;' alt="">
                     </div>
                     <div class="text-container transition-out">
                         <section>
                             <div class='svg-container'>1</div>
                             <p> Scherdule a Free 20-minute Call</p>
-                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                            <span>Korem ipsum dolor sit amet consectetur adipisicing elit.
+                                autem repudiandae delectus odit ad illum provident animi, earum in! Saep Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque cupiditate consequatur nam nulla quia optio corpcabo, ratione placeat dolores maxime?
+                            </span>
                             <div class='expected-hide-window transition-out'>
-                                <p class='hide-item-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <p class='hide-item-text'><span style=  'color:black; font-weight: 900;'>^</span><br> Korem ipsum dolor sit amet consectetur adipisicing elit.
+                                    autem repudiandae delectus odit ad illum provident animi, earum in! Saep Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque cupiditate consequatur nam nulla quia optio corpcabo, ratione placeat dolores maxime?
+                                </p>
                             </div>
                         </section>
                         <section>
                             <div class='svg-container'>2</div>
                             <p> Choose a personalized Package</p>
-                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                            <span>Psum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, repellat nobis vitae accusantium. </span>
                             <div class='expected-hide-window transition-out'>
-                                <p class='hide-item-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <p class='hide-item-text'><span style=  'color:black; font-weight: 900;'>^</span><br>Lorem ipsum dolor sit amet consectetur adipisicing elit dolor sit amet consectetur, adipisicing elit. Eveniet, repellat nobis vitae accusantium. </p>
                             </div>
                         </section>
                         <section>
                             <div class='svg-container'>3</div>
                             <p> Scherdule a Deep Dive Condult</p>
-                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                            <span>Ipsum dolor sit amet consectetur adipiunt necessitatibus?</span>
                             <div class='expected-hide-window transition-out'>
-                                <p class='hide-item-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <p class='hide-item-text'><span style=  'color:black; font-weight: 900;'>^</span><br>Lorem ipsum dolor sit amet consectetur adipiunt necessitatibus?</p>
                             </div>
                         </section>
                         <section>
                             <div class='svg-container'>4</div>
                             <p> Scherdule Your Follow-Ups</p>
-                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                            <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit minus aut dicta totam autem repudiandae delectus odit ad illum provident animi, earum in! Saepe, cupiditate. Error minima atque sint nostrum. Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
                             <div class='expected-hide-window transition-out'>
-                                <p class='hide-item-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <p class='hide-item-text'><span style=  'color:black; font-weight: 900;'>^</span><br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit minus aut dicta totam autem repudiandae delectus odit ad illum provident animi, earum in! Saepe, cupiditate. Error minima atque sint nostrum. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                             </div>
                         </section>
                         <section>
                             <div class='svg-container'>5</div>
                             <p> Stay Connected via HeadPie</p>
-                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                            <span>It amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quis possimus magni, consequuntur aperiam error numquam riosam necessitatibus magnam eum, dolor distinctio nisi temporibus! </span>
                             <div class='expected-hide-window transition-out'>
-                                <p class='hide-item-text'>iActually dont know how in work.</p>
+                                <p class='hide-item-text'><span style=  'color:black; font-weight: 900;'>^</span><br>It amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quis possimus magni, consequuntur aperiam error numquam riosam necessitatibus magnam eum, dolor distinctio nisi temporibus!</p>
                             </div>
                         </section>
                     </div>

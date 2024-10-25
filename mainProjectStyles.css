@@ -1,25 +1,27 @@
-
 /* minimum media querries */
 @media (min-width:1280px) {
     .daughter-window .grid-navbar-container p,.card-container .card #card-text {font-size: 1.3rem;}
     .daughter-window [navbar] .grid-navbar-container p span {font-size: 1.2rem;}
     [custom-coffe] .custom-container .custom-header, [card-section] .card-section-header,.background-image .main-image-text, [expectation-part] .main-expectation-header {font-size: 2.7rem;}
     [expectation-part] .content-container .text-container {gap:10%;}
-    [expectation-part] .content-container .text-container section p {font-size:2rem;}
+    [expectation-part] .content-container .text-container section > p {font-size:2rem;}
     .father-window {margin-top: 0%;}
     [card-section] .card-section-subtext, [custom-coffe] .custom-container .custom-subtext, [expectation-part] .content-container .text-container section span {font-size: 1.1rem;}
-    .content-container .text-container section p {font-size: 1.8rem;}
+    .content-container .text-container section > p {font-size: 1.8rem;}
     [image-part] .hide-image-window .hide-image-subtext {font-size: 0.9rem;}
     [custom-coffe] .custom-container .button-container .custom-button {font-size: 1.1rem;}
     .undercard-container .undercard-subtext {font-size: 1.4rem;}
+    [expectation-part] .content-container .text-container section  .hide-item-text {font-size:1.9rem;}
 }
 /* min w - 1024px */
 @media (min-width: 1024px) {
     .background-image .main-image-text, [image-part] .hide-image-window .hide-image-header, [expectation-part] .main-expectation-header {font-size: 1.9rem;}
     .inner-image-text .subtext-image-text {font-size: 1rem;}
     .daughter-window .grid-navbar-container p, .custom-container .custom-subtext, [card-section] .card-section-subtext, [expectation-part] .content-container .text-container section span, .expected-hide-window .hide-item-text {font-size: 0.8rem;}
-    .undercard-container .undercard-subtext, [expectation-part] .content-container .text-container section p {font-size: 1.1rem;}
+    .undercard-container .undercard-subtext, [expectation-part] .content-container .text-container section > p {font-size: 1.1rem;}
     [expectation-part] .content-container {grid-template-columns:repeat(2, 1fr);grid-template-rows: 1;}
+
+    [expectation-part] .content-container .text-container section  .hide-item-text {font-size: 0.9rem;}
 }
 /* maximum media querries */
 /* max w - 1280px */
@@ -28,7 +30,7 @@
     .background-image .main-image-text {font-size: 1.7rem;}
     [custom-coffe] .custom-container .custom-header, [card-section] .card-section-header, [expectation-part] .main-expectation-header {font-size: 2rem;}
     .card-container .card #card-text {font-size: 1.2rem;}
-    .content-container .text-container section p {font-size: 1.1rem;}
+    .content-container .text-container section > p {font-size: 1.1rem;}
 }
 /* max w - 1024px */
 @media (max-width: 1024px) {
@@ -39,9 +41,9 @@
     {font-size: 1.4rem;}
     
     [expectation-part] .content-container 
-    {grid-template-rows:repeat(2, 1fr);grid-template-columns: 1;gap:5%;}
+    {grid-template-rows:repeat(2,1fr);grid-template-columns: 1;gap:5%;}
     
-    .content-container .text-container section p 
+    .content-container .text-container section > p 
     {font-size:1.3rem;}
 
     [expectation-part] .content-container .text-container 
@@ -54,13 +56,27 @@
     {font-size: 1.6rem;}
     
     .card-container .card #card-text, .content-container .text-container section span {font-size: 0.9rem;}
+
+    .content-container .text-container  section .hide-item-text {
+        font-size: 1.1rem;
+    }
+   
+
+
 }
 /* max w - 768px */
 @media(max-width:768px) {
     [custom-coffe] .custom-container .custom-subtext, [card-section] .card-section-subtext {font-size: 0.5rem;}
-    [custom-coffe] .custom-container .custom-header, [card-section] .card-section-header, [image-part] .hide-image-window .hide-image-header, [expectation-part] .main-expectation-header {font-size: 1.3rem;}
+    [custom-coffe] .custom-container .custom-header, [card-section] .card-section-header, [image-part] .hide-image-window .hide-image-header{font-size: 1.3rem;}
     [custom-coffe] .custom-container .button-container .custom-button, .card-container .card #card-text, [card-section] .card-container .card span, [card-section] .undercard-container, [image-part] .hide-image-window .hide-image-subtext, .content-container .text-container section span {font-size: 0.7rem;}
-    [expectation-part] .content-container .text-container section p {font-size: 1.1rem;}
+    [expectation-part] .content-container .text-container section > p {font-size: 1.1rem;}
+   
+    .content-container .text-container section .hide-item-text {
+        font-size: 0.9rem;
+    }
+    [expectation-part] .main-expectation-header {
+        font-size: 1.6rem;
+    }
 }
 /* custom properties */
 :root {
@@ -101,8 +117,8 @@ body .father-window {
     justify-content: center;
     z-index: 100;
     height: 100%;
-    position: absolute;
-    background: red;
+    /* position: absolute; */
+    /* background: red; */
 }
 .daughter-window [navbar] {
     position: relative;
@@ -113,6 +129,7 @@ body .father-window {
     gap: 30%;
     object-fit: cover;
     flex-direction: row;
+    /* background: #000; */
 }
 [navbar] .grid-navbar-container {
     display: flex;
@@ -144,10 +161,14 @@ body .father-window {
     animation-delay: 200ms;
 }
 .card-container .card:hover .animation-rotate-line:nth-child(3) {
-    animation: thirdRotate 8s infinite linear forwards;
+    animation: secondRotate 8s infinite linear forwards;
     opacity: 1;
     animation-delay: 200ms;
 }
+
+
+
+
 .card-container .card .animation-rotate-line {
     position: absolute;
     background: white;
@@ -167,10 +188,7 @@ body .father-window {
     100% {transform: rotateZ(360deg);}
     50% {filter: blur(2rem);}
 }
-@keyframes thirdRotate {
-    100% {transform: rotateZ(360deg);}
-    50% {filter: blur(2rem);}
-}
+
 
 .card-container .card:nth-child(3):hover, .card-container .card:nth-child(4):hover {
     transform: translateX(-5%) scale(1.1);
@@ -236,6 +254,7 @@ body .father-window {
     /* bottom: 100px; */
     background: white;
     width: fit-content;
+    pointer-events: none;
     flex-direction: column;
     padding: 10%;
     height: fit-content;
@@ -400,7 +419,7 @@ body, [expectation-part] .content-container .expectation-grid-text .text-header,
     justify-content:center;
     align-items:center;
     /* margin: 5% 0%; */
-    padding:5% 0;
+    padding:8% 0;
     height:fit-content;
     overflow:hidden;
     flex-direction:column;
@@ -412,6 +431,12 @@ body, [expectation-part] .content-container .expectation-grid-text .text-header,
     gap:3%;
     height:fit-content;
 }
+[expectation-part] .content-container .hidden-transition-image {
+    position:absolute;
+    height:100%;
+    transition-timing-function: ease-in-out;
+    /* aspect-ratio: auto; */
+}
 [expectation-part] .content-container .text-container{
     gap:5%;
     display:flex;
@@ -419,27 +444,41 @@ body, [expectation-part] .content-container .expectation-grid-text .text-header,
     flex-direction:column;
 }
 [expectation-part] .content-container .image-expectation{
-    /* width: auto; */
-    display:grid;
-    place-items:center;
-    height:100%;
+    width:90%;
+    display:flex;
+
+    place-self: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* place-items:center; */
+
     /* min-width: 50%; */
 }
+
+
 .content-container .image-expectation img{
     width:100%;
     height:100%;
+    transform-style: ease-in;
     object-fit:cover;
     border-radius:1rem;
+    place-self: center;
+    place-content: center;
     max-width:100%;
     max-height:100%;
-    /* position: absolute; */
+    position: relative;
+    
 }
+
 .content-container .text-container{
     position:relative;
 }
-[expectation-part] .text-container section p,.expected-hide-window{
+[expectation-part] .text-container section > p, .text-container section .svg-container{
     font-weight:500;
     margin:0;
+    /* z-index: 100; */
+   
     /* overflow: auto; */
 }
 .text-container section .svg-container{
@@ -452,8 +491,8 @@ body, [expectation-part] .content-container .expectation-grid-text .text-header,
     display:flex;
     justify-content:center;
     grid-column:1/2;
-    color:gray;
-    font-weight:500;
+    color:rgb(0, 0, 0);
+    /* font-weight:500; */
     align-items:center;
 }
 .content-container .text-container section{
@@ -463,35 +502,48 @@ body, [expectation-part] .content-container .expectation-grid-text .text-header,
     grid-template-columns:7.5% 87.5%;
     grid-template-rows:auto;
     gap:5%;
-    overflow:hidden;
-    /* position: relative; */
+    /* overflow:hidden; */
+    position: relative;
     transition:all 0.5s ease-out;
     /* overflow: hidden; */
     text-overflow:ellipsis; /* Додає трикрапку в кінці тексту */
 }
+.hide-item-text {
+    font-size: 0.4rem;
+
+}
 .content-container .text-container section .expected-hide-window{
     position:absolute;
-    width:50%;
+    width:fit-content;
     padding:2%;
-    bottom:-60%;
+    top:100%;
+    left:12%;
+    
     /* bottom: -50%; */
-    box-shadow:0 15px 30px 1px rgb(99,99,99);
+    position: absolute;
+    box-shadow:30px 30px 70px 1px rgb(158, 158, 158);
     background:white;
     opacity:0;
+    align-items:stretch;
     height:fit-content;
     font-weight:100;
+    pointer-events: none;
+    z-index: 10;
+    transition-duration: 100ms;
+    transition-delay:150ms;
+    /* border:5px solid; */
+    color:rgb(75, 75, 75);
+    font-weight: 100;
+    /* font-size: 0.4rem; */
 }
-.expected-hide-window p{
-    font-weight:lighter;
-}
+
 .content-container .text-container section:hover .expected-hide-window{
     /* background: red; */
-    bottom:0;
-    bottom:5%;
+    top:130%;
+    /* bottom:0%; */
+    /* position: absolute; */
     opacity:1;
-    border-radius:.5rem;
-    border:1px solid;
-    transition-delay:150ms;
+   
 }
 .text-container section>p{
     grid-column:2/2;
@@ -514,7 +566,10 @@ body, [expectation-part] .content-container .expectation-grid-text .text-header,
     /* place-self: center; */
 }
 
-
+.content-container .text-container section .expected-hide-window.hide-item-text{
+    font-weight: 100;
+    font-size: 0.4rem;
+}
 
 
 
@@ -538,5 +593,3 @@ body, [expectation-part] .content-container .expectation-grid-text .text-header,
     z-index: 100;
     color:red;
 }
-
-
